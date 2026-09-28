@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #5e2d17;
+    background-image:url(images/istockphoto-1139877562-170667a.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+header {
+    background-color: #4b2415;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 8%;
+}
+
+
+header h1 {
+    font-size: 28px;
+}
+
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: #f2c49b;
+}
+
+
+
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 8%;
+    gap: 50px;
+}
+
+
+.hero-text {
+    max-width: 550px;
+}
+
+
+.hero-text h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+.hero-image img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+.bouton {
+    display: inline-block;
+
+    background-color: #7b3f20;
+    color: white;
+
+    padding: 14px 25px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+}
+
+
+.bouton:hover {
+    background-color: #4b2415;
+}
+
+
+
+
+.produits {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+
+.produits h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.carte {
+    background-color: white;
+
+    width: 280px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.carte h3 {
+    margin-bottom: 15px;
+}
+
+
+.carte p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.carte strong {
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: #4b2415;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+.carte img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+

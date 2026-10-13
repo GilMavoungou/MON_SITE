@@ -5,91 +5,354 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mari Choco</title>
+    <meta name="description"
+          content="Découvrez les délicieuses madeleines et gourmandises chocolatées de MARYLOU Cakes.">
+
+    <title>MARYLOU Cakes | Le bonheur en une bouchée</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>MARYLOU cakes</h1>
+   
+    <header class="entete">
 
-        <nav>
+        <a href="#accueil" class="logo">
+            MARYLOU <span>Cakes</span>
+        </a>
+
+        <nav class="navigation">
+
             <a href="#accueil">Accueil</a>
-            <a href="#produits">Produits</a>
+
+            <a href="#produits">Nos produits</a>
+
             <a href="#apropos">À propos</a>
+
             <a href="#contact">Contact</a>
+
         </nav>
+
+        <a href="#produits" class="bouton-entete">
+            Découvrir
+        </a>
+
     </header>
 
 
     <main>
 
+       
+
         <section id="accueil" class="hero">
 
-            <div class="hero-text">
-                <h2>Des madeleines au chocolat faites avec du coeur</h2>
+            <div class="hero-contenu">
 
-                <p>
-                    Découvrez nos délicieuses  mari choco faites pour vous faire 
-                    revivre votre enfance .
+                <span class="etiquette">
+                    ♡ FAIT AVEC AMOUR
+                </span>
+
+                <h1>
+                    Le bonheur<br>
+                    se déguste en<br>
+                    <span>une bouchée.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Découvrez l'univers gourmand de MARYLOU Cakes :
+                    des madeleines moelleuses, un délicieux goût
+                    de chocolat et des douceurs préparées avec amour.
                 </p>
 
-                <a href="#produits" class="bouton">
-                    Découvrir nos produits
-                </a>
+                <div class="hero-boutons">
+
+                    <a href="#produits" class="bouton-principal">
+                        Découvrir nos gourmandises →
+                    </a>
+
+                </div>
+
+                <div class="hero-infos">
+
+                    <div class="info">
+                        <span class="info-icone">♡</span>
+
+                        <div>
+                            <strong>Fait avec amour</strong>
+                            <small>Pour les gourmands</small>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <span class="info-icone">🍫</span>
+
+                        <div>
+                            <strong>Saveurs chocolatées</strong>
+                            <small>Un plaisir à partager</small>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="hero-image">
+
+            <div class="hero-visuel">
+
+                <div class="hero-decoration"></div>
+
+                <div class="hero-photo">
+
+                    <img
+                        src="images/WhatsApp Image 2026-09-28 at 14.44.26.jpeg"
+                        alt="Délicieuses madeleines au chocolat MARYLOU Cakes"
+                    >
+
+                </div>
+
+                <div class="badge-gourmand">
+
+                    <span>♡</span>
+
+                    <div>
+                        <strong>100 % gourmand</strong>
+                        <small>Le plaisir avant tout</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+     
+
+        <section id="produits" class="produits">
+
+            <div class="titre-section">
+
+                <span class="surtitre">
+                    NOTRE UNIVERS GOURMAND
+                </span>
+
+                <h2>
+                    Nos délicieuses <span>créations</span>
+                </h2>
+
+                <p>
+                    De petites douceurs pour les grands moments
+                    de bonheur.
+                </p>
+
+            </div>
+
+
+            <div class="cartes">
+
+
+
+                <article class="carte">
+
+                    <div class="carte-image">
+
+                        <img
+                            src="images/WhatsApp Image 2026-09-28 at 14.44.26.jpeg"
+                            alt="Madeleines au chocolat"
+                            loading="lazy"
+                        >
+
+                        <span class="badge-produit">
+                            Notre gourmandise
+                        </span>
+
+                    </div>
+
+
+                    <div class="carte-contenu">
+
+                        <span class="categorie">
+                            CHOCOLAT
+                        </span>
+
+                        <h3>Madeleine Chocolat</h3>
+
+                        <p>
+                            Une madeleine moelleuse avec
+                            une délicieuse saveur chocolatée.
+                        </p>
+
+
+                        <div class="carte-bas">
+
+                            <div class="prix">
+                                <strong>1 000</strong>
+                                <span>FCFA</span>
+                            </div>
+
+                            <a href="#contact" class="bouton-carte"
+                               aria-label="Commander une madeleine au chocolat">
+                                Commander ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="carte">
+
+                    <div class="carte-image">
+
+                        <img
+                            src="images/WhatsApp Image 2026-09-28 at 14.44.26 (1).jpeg"
+                            alt="Box de madeleines au chocolat et à la banane"
+                            loading="lazy"
+                        >
+
+                        <span class="badge-produit">
+                            Pour les gourmands
+                        </span>
+
+                    </div>
+
+
+                    <div class="carte-contenu">
+
+                        <span class="categorie">
+                            CHOCOLAT & BANANE
+                        </span>
+
+                        <h3>Box Chocolat</h3>
+
+                        <p>
+                            Une box remplie de délicieuses
+                            madeleines au chocolat et à la banane.
+                        </p>
+
+
+                        <div class="carte-bas">
+
+                            <div class="prix">
+                                <strong>1 000</strong>
+                                <span>FCFA</span>
+                            </div>
+
+                            <a href="#contact" class="bouton-carte"
+                               aria-label="Commander une box chocolat">
+                                Commander ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+
+                <article class="carte">
+
+                    <div class="carte-image">
+
+                        <img
+                            src="images/WhatsApp Image 2026-09-28 at 14.44.24.jpeg"
+                            alt="Mini-madeleines à partager"
+                            loading="lazy"
+                        >
+
+                        <span class="badge-produit">
+                            Petit plaisir
+                        </span>
+
+                    </div>
+
+
+                    <div class="carte-contenu">
+
+                        <span class="categorie">
+                            MINI GOURMANDISES
+                        </span>
+
+                        <h3>Mini Madeleines</h3>
+
+                        <p>
+                            De petites madeleines délicieuses,
+                            idéales pour accompagner tes moments
+                            de partage.
+                        </p>
+
+
+                        <div class="carte-bas">
+
+                            <div class="prix">
+                                <strong>500</strong>
+                                <span>FCFA</span>
+                            </div>
+
+                            <a href="#contact" class="bouton-carte"
+                               aria-label="Commander des mini-madeleines">
+                                Commander ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <div class="message-produits">
+
+                <span>🍰</span>
+
+                <p>
+                    De nouvelles gourmandises arrivent bientôt !
+                </p>
+
             </div>
 
         </section>
 
 
-        <section id="produits" class="produits">
 
-            <h2>Nos délicieuses madeleines</h2>
+        <!-- ==================== À PROPOS ==================== -->
 
-            <div class="cartes">
+        <section id="apropos" class="apropos">
 
-                <article class="carte">
-                    <h3>Madeleine Chocolat</h3>
+            <div class="apropos-icone">
+                ♡
+            </div>
 
-                    <p>
-                        Une madeleine moelleuse avec
-                        une délicieuse saveur chocolatée.
-                    </p>
+            <div class="apropos-contenu">
 
-                    <strong>1 000 FCFA</strong>
-                    <img src="images/WhatsApp Image 2026-09-28 at 14.44.26.jpeg" alt="">
-                </article>
+                <span class="surtitre">
+                    UN PEU DE NOUS
+                </span>
 
+                <h2>
+                    La gourmandise a une histoire.
+                </h2>
 
-                <article class="carte">
-                    <h3>Box Chocolat</h3>
+                <p>
+                    Chez MARYLOU Cakes, nous croyons que les petites
+                    douceurs rendent les moments de la vie encore
+                    plus agréables.
 
-                    <p>
-                        Une box remplie de délicieuses
-                        madeleines au chocolat et Banane.
-                    </p>
+                    Notre univers est celui du chocolat, du partage
+                    et du plaisir de découvrir de nouvelles saveurs.
+                </p>
 
-                    <strong>1 000 FCFA</strong>
-                    <img src="images/WhatsApp Image 2026-09-28 at 14.44.26 (1).jpeg" alt="">
-                </article>
-
-
-                <article class="carte">
-                    <h3>Mini Madeleines</h3>
-
-                    <p>
-                        De petites madeleines parfaites
-                        pour partager.
-                    </p>
-
-                    <strong> 5 00 FCFA</strong>
-                    <img src="images/WhatsApp Image 2026-09-28 at 14.44.24.jpeg" alt="">
-                </article>
+                <a href="#contact" class="bouton-principal">
+                    Parlons gourmandise →
+                </a>
 
             </div>
 
@@ -98,8 +361,59 @@
     </main>
 
 
-    <footer id="contact">
-        <p>© 2026 Mari choco - Tous droits réservés</p>
+    <footer id="contact" class="pied-page">
+
+        <div class="pied-contenu">
+
+            <div class="pied-marque">
+
+                <a href="#accueil" class="logo logo-pied">
+                    MARYLOU <span>Cakes</span>
+                </a>
+
+                <p>
+                    Des douceurs préparées avec amour
+                    pour accompagner tes meilleurs moments.
+                </p>
+
+            </div>
+
+
+            <div class="pied-contact">
+
+                <h3>Envie de gourmandise ?</h3>
+
+                <p>
+                    Contacte-nous pour découvrir nos produits
+                    et passer ta commande.
+                </p>
+
+                <a
+                    href="https://wa.me/068367249"
+                    class="bouton-whatsapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Écris-nous sur WhatsApp ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="pied-bas">
+
+            <p>
+                © 2026 MARYLOU Cakes — Tous droits réservés.
+            </p>
+
+            <a href="#accueil">
+                Retour en haut ↑
+            </a>
+
+        </div>
+
     </footer>
 
 </body>
